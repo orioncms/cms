@@ -1,7 +1,3 @@
-Great! Here's a refined version of your installation guide for **OrionCMS** on Packagist, ensuring it’s simple and clear:
-
----
-
 ### Installation Instructions for OrionCMS
 
 1. **Create a new project:**

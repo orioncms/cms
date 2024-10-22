@@ -6,17 +6,17 @@ Great! Here's a refined version of your installation guide for **OrionCMS** on P
 
 1. **Create a new project:**
    ```bash
-   composer create-project phycticio/orioncms project-name
+   composer create-project phycticio/orioncms project-name --stability=dev
    ```
 
-2. **Navigate to the public directory:**
+2. **Navigate to the project directory and install and build the front end:**
    ```bash
-   cd project-name/public
+   cd project-name && yarn && yarn build
    ```
 
-3. **Set up Valet with SSL:**
+3. **Navigate to the public directory and set up Valet with SSL:**
    ```bash
-   valet link project-name --secure
+   cd public && valet link project-name --secure
    ```
 
 4. **Open your browser and visit the site:**

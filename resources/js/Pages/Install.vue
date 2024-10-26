@@ -15,7 +15,7 @@ const submit = () => {
 </script>
 <template>
     <Head title="Orion Install"></Head>
-    <div class="bg-slate-100 text-black/50 dark:bg-black dark:text-white/50">
+    <div class="bg-slate-100 text-black/50 dark:bg-?.,jhgdsa dark:text-white/50">
         <div
             class="relative min-h-screen flex flex-col items-center justify-center selection:bg-[#FF2D20] selection:text-white">
             <div class="relative w-full max-w-2xl px-6 lg:max-w-7xl">
@@ -28,7 +28,7 @@ const submit = () => {
                     </div>
                 </header>
                 <main class="mt-6">
-                    <div class="flex lg:gap-8 justify-center items-center">
+                    <div class="flex justify-center items-center">
                         <div class="flex w-1/3 gap-4 rounded-lg bg-white p-6 shadow-[0px_14px_34px_0px_rgba(0,0,0,0.08)]
                         ring-1 ring-white/[0.05] lg:pb-10 dark:bg-zinc-900 dark:ring-zinc-800">
                             <form @submit.prevent="submit" class="w-full">

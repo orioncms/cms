@@ -1,27 +1,41 @@
-### Installation Instructions for OrionCMS
-
-1. **Create a new project:**
-   ```bash
-   composer create-project phycticio/orioncms project-name --stability=dev
-   ```
-
-2. **Navigate to the project directory and install and build the front end:**
-   ```bash
-   cd project-name && yarn && yarn build
-   ```
-
-3. **Navigate to the public directory and set up Valet with SSL:**
-   ```bash
-   cd public && valet link project-name --secure
-   ```
-
-4. **Open your browser and visit the site:**
-   ```
-   https://project-name.test
-   ```
-
-5. **Follow the installation process to set up Orion.**
+Aquí te dejo las instrucciones actualizadas para la instalación de Orion:
 
 ---
 
-This guide is simple, concise, and should help users get Orion up and running quickly.
+### Instalación de Orion
+
+Sigue estos pasos para instalar y configurar Orion usando `composer`:
+
+1. **Instala el proyecto:**
+   ```bash
+   composer create-project phycticio/orioncms website --stability=dev
+   ```
+   Este comando instalará todo el sistema en el directorio `website`, utilizando una base de datos SQLite por defecto y corriendo automáticamente las migraciones necesarias.
+
+2. **Crea el enlace de Valet:**
+   Si usas Laravel Valet, crea el enlace al proyecto y asegúrate de que esté configurado como seguro:
+   ```bash
+   valet link website --secure
+   ```
+
+3. **Accede al sistema:**
+   Abre el navegador y dirígete a la URL generada, que normalmente será `https://website.test`. El sistema detectará automáticamente que no está instalado y te guiará a través del asistente de instalación.
+
+---
+
+### Asistente de Instalación
+
+Durante la primera configuración, el asistente de instalación te guiará a través de los siguientes pasos:
+
+1. **Crear el usuario administrador:** Introduce los detalles de tu usuario administrador.
+
+2. **Seleccionar las características a habilitar:**
+    - Páginas
+    - Blog
+    - Componentes
+
+3. **Finalizar la configuración:** Una vez que hayas configurado tus preferencias, serás redirigido al **dashboard** de administración, donde podrás comenzar a gestionar tu sitio web.
+
+---
+
+Estas instrucciones aseguran que Orion se instale correctamente y que el sistema quede listo para ser utilizado desde el dashboard.

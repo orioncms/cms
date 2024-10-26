@@ -14,6 +14,15 @@ export default {
 
     theme: {
         extend: {
+            colors: {
+                'st-patricks-blue': '#2B2A74',
+                'forest-green': '#104A23',
+                'cadmium-orange': '#E57C32',
+                'ube': '#7C7CBB',
+                'vodka': '#B8B8E5',
+                'erie-black': '#1A1A1A',
+                'cultured': '#F4F4F4'
+            },
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },

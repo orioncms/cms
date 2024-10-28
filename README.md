@@ -1,6 +1,6 @@
-[![GoDev](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://github.com/Mody-Solutions/orioncms/blob/master/README.md)
+[![Laravel](https://img.shields.io/badge/laravel-docs-red?logo=laravel)](https://laravel.com/docs/11.x/readme)
+[![VueJS](https://img.shields.io/badge/vuejs-docs-green?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+VnVlLmpzPC90aXRsZT48cGF0aCBkPSJNMjQsMS42MUgxNC4wNkwxMiw1LjE2LDkuOTQsMS42MUgwTDEyLDIyLjM5Wk0xMiwxNC4wOCw1LjE2LDIuMjNIOS41OUwxMiw2LjQxbDIuNDEtNC4xOGg0LjQzWiIvPjwvc3ZnPg==&logoColor=#ffffff)](https://github.com/Mody-Solutions/orioncms/blob/master/README.md)
 [![GitHub](https://img.shields.io/github/license/Mody-Solutions/orioncms)](https://github.com/Mody-Solutions/orioncms/blob/master/LICENSE)
-[![Go Report Card](https://goreportcard.com/badge/github.com/Mody-Solutions/orioncms)](https://goreportcard.com/report/github.com/Mody-Solutions/orioncms)
 
 ### Instalación de Orion
 

@@ -1,3 +1,7 @@
+[![GoDev](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://github.com/Mody-Solutions/orioncms/blob/master/README.md)
+[![GitHub](https://img.shields.io/github/license/Mody-Solutions/orioncms)](https://github.com/Mody-Solutions/orioncms/blob/master/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Mody-Solutions/orioncms)](https://goreportcard.com/report/github.com/Mody-Solutions/orioncms)
+
 ### Instalación de Orion
 
 Sigue estos pasos para instalar y configurar Orion usando `composer`:

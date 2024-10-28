@@ -1,7 +1,3 @@
-Aquí te dejo las instrucciones actualizadas para la instalación de Orion:
-
----
-
 ### Instalación de Orion
 
 Sigue estos pasos para instalar y configurar Orion usando `composer`:

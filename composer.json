@@ -1,5 +1,5 @@
 {
-    "name": "phycticio/orioncms",
+    "name": "orioncms/cms",
     "type": "project",
     "description": "Build smarter, scale faster with Orion—your code, your way.",
     "keywords": ["laravel", "framework", "orion", "cms", "jetstream"],

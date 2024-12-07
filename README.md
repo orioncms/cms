@@ -8,7 +8,7 @@ Sigue estos pasos para instalar y configurar Orion usando `composer`:
 
 1. **Instala el proyecto:**
    ```bash
-   composer create-project phycticio/orioncms website --stability=dev
+   composer create-project orioncms/cms project-name --stability=dev
    ```
    Este comando instalará todo el sistema en el directorio `website`, utilizando una base de datos SQLite por defecto y corriendo automáticamente las migraciones necesarias.
 
